@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  padding: 3vh 0;
+}
+
+.header {
+  margin: 5vh 0;
+}
+
+.display-rates {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  gap: 2vh;
+}
+
+.disp-box {
+  width: 120px;
+  text-align: center;
+}
+
+.disp-box:hover {
+  scale: 1.1;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    margin: 3vh 0;
+  }
+
+  h1 {
+    padding: 1.5vh 0;
+  }
+
+  .disp-box:hover {
+    scale: 1.03;
+  }
+
+  #search-currency {
+    width: 50%;
+  }
+}
